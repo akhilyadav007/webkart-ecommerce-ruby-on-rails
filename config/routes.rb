@@ -9,5 +9,7 @@ Rails.application.routes.draw do
     sessions: 'customers/sessions',
     registrations: 'customers/registrations'
   }
+
+  resources :products
   
 end
