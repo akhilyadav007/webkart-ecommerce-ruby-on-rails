@@ -17,6 +17,10 @@
 !/log/.keep
 !/tmp/.keep
 
+
+#schema file ignore
+/db/schema.rb
+
 # Ignore pidfiles, but keep the directory.
 /tmp/pids/*
 !/tmp/pids/
@@ -31,3 +35,7 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+/config/credentials/developement.key
+
+/config/credentials/development.key

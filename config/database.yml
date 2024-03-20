@@ -3,8 +3,8 @@ default: &default
   encoding: unicode
   pool: 5
   host: localhost
-  username: postgres
-  password: postgres
+  username: root
+  password: root@123
 development:
   <<: *default
   database: web_kart_development
